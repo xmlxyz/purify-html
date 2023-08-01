@@ -1,6 +1,6 @@
 {
 	"name": "@xmlxyz/html-purify",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"license": "Unlicense",
 	"type": "module",
 	"types": "./dist/index.d.ts",
@@ -50,7 +50,12 @@
 		"minify": true,
 		"splitting": true,
 		"sourcemap": true,
-		"entryPoints": ["src/index.ts"],
-		"format": ["esm", "cjs"]
+		"entryPoints": [
+			"src/index.ts"
+		],
+		"format": [
+			"esm",
+			"cjs"
+		]
 	}
 }
