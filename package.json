@@ -3,9 +3,9 @@
 	"version": "0.0.4",
 	"license": "Unlicense",
 	"type": "module",
-	"main": "dist/index.cjs",
-	"module": "dist/index.js",
-	"types": "dist/index.d.ts",
+	"types": "./dist/index.d.ts",
+	"module": "./dist/index.js",
+	"main": "./dist/index.cjs",
 	"files": [
 		"./dist/*"
 	],
@@ -44,5 +44,13 @@
 		"bracketSpacing": true,
 		"bracketSameLine": true,
 		"htmlWhitespaceSensitivity": "ignore"
+	},
+	"tsup": {
+		"dts": true,
+		"minify": true,
+		"splitting": true,
+		"sourcemap": true,
+		"entryPoints": ["src/index.ts"],
+		"format": ["esm", "cjs"]
 	}
 }
