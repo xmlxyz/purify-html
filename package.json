@@ -1,6 +1,6 @@
 {
 	"name": "@xmlxyz/html-purify",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"license": "Unlicense",
 	"type": "module",
 	"main": "dist/index.cjs",
