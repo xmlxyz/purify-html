@@ -11,4 +11,4 @@ export function createPurifier(
 	return new PurifyHTML([...middleware, new RelativeHrefMiddleware(baseURI)]);
 }
 
-export { PurifierMiddlware };
+export { PurifierMiddlware, PurifyHTML };
